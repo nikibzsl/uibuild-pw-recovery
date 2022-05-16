@@ -14,6 +14,8 @@ section {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
+  top: 50%;
+  right: 50%;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: 16px;
@@ -46,13 +48,19 @@ h1 {
   }
 }
 
-input {
+button {
+  display: block;
+  position: absolute;
   font-family: 'Montserrat', sans-serif;
-  font-weight: medium;
-  font-size: 16px;
-  max-width: 48px;
-  height: 64px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 21px;
+  width: 120px;
+  height: 120px;
+  background-color: #f9c582;
+  color: #006837;
+  border-radius: 50%;
+  border: none;
+  bottom: 0;
+  right: 0;
 }
 /*# sourceMappingURL=style.css.map */

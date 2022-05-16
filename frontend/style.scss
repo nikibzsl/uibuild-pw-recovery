@@ -69,10 +69,10 @@ input {
      }
 }
 
+
 button {
     display: block;
-
-
+    position: absolute;
 
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -85,6 +85,11 @@ button {
     color:#006837;
 
     border-radius: 50%;
+    border: none;
+
+    bottom: 0;
+    right: 0;
 
 
 }
+
